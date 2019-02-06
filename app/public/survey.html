@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Friend Finder</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+  <body>
+
+  	<div class="container">
+
+      <h2>Survey Questions</h2>
+      <hr>
+      <h3><strong>About You</strong></h3>
+      <div class="form-group">
+          <label for="name">Name (Required)</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="photo">Link to Photo Image (Required)</label>
+          <input type="text" class="form-control" id="photo">
+      </div>
+
+      <hr>
+
+      <h4>Question 1</h4>
+      <div class="form-group">
+        <label for="sel1">I am registered to vote and generally keep up with legislation that affects me.</label>
+        <select class="form-control" id="sel1">
+	 		      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+      </div>
+      <h4>Question 2</h4>
+      <div class="form-group">
+        <label for="sel2">I know the names of my local and federal representatives.</label>
+        <select class="form-control" id="sel2">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 3</h4>
+      <div class="form-group">
+        <label for="sel3">I am able to discuss politics without personalizing the objections of others.</label>
+        <select class="form-control" id="sel3">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 4</h4>
+      <div class="form-group">
+        <label for="sel4">Term limits are an extremely important check on corporate and individual influence.</label>
+        <select class="form-control" id="sel4">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 5</h4>
+      <div class="form-group">
+        <label for="sel5">I think that any government at all restricts the "free market" in a undesirable way.</label>
+        <select class="form-control" id="sel5">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 6</h4>
+      <div class="form-group">
+        <label for="sel6">I think investing in public education is good for the economy as a whole.</label>
+        <select class="form-control" id="sel6">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 7</h4>
+      <div class="form-group">
+        <label for="sel7">I think personal liberties are more important than collective security.</label>
+        <select class="form-control" id="sel7">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 8</h4>
+      <div class="form-group">
+        <label for="sel8">Those with chronic health conditions are on their own to secure insurance and/or pay for treatment.</label>
+        <select class="form-control" id="sel8">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 9</h4>
+      <div class="form-group">
+        <label for="sel9">I generally do my part to protect the environment.</label>
+        <select class="form-control" id="sel9">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <h4>Question 10</h4>
+      <div class="form-group">
+        <label for="sel10">I think all News Media outlets are biased to some degree.</label>
+        <select class="form-control" id="sel10">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-lg btn-block" style="font-size:32px" id="submit" data-toggle="modal" data-target="#myModal"><i class="fa fa-venus-mars" style="font-size:32px"></i>
+   Submit</button>
+
+      <hr>
+
+      <footer class="footer">
+        <div class="container">
+          <p><a href="/api/friends">API Friends</a> | <a href="https://github.com/danielut4/FriendFinder">GitHub Repo</a></p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Your match:</h4>
+          </div>
+          <div class="modal-body">
+            <h4 id="matchName"></h4>
+            <img id="matchPhoto" height=200 width=200 src="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
+
+<script type="text/javascript">
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+      var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+    	  questionData: [$("#sel1").val(), $("#sel2").val(), $("#sel3").val(), $("#sel4").val(), $("#sel5").val(), $("#sel6").val(), $("#sel7").val(), $("#sel8").val(), $("#sel9").val(), $("#sel10").val()]
+      };
+      $.post("/api/friends", newFriend,
+        function(data) {
+          console.log(data);
+          $("#matchName").text(data.name);
+          $('#matchPhoto').attr("src", data.photo);
+          // Clear the form when submitting
+          $("#name").val("");
+          $("#photo").val("");
+          $("#sel1").val("");
+          $("#sel2").val("");
+          $("#sel3").val("");
+          $("#sel4").val("");
+          $("#sel5").val("");
+          $("#sel6").val("");
+          $("#sel7").val("");
+          $("#sel8").val("");
+          $("#sel9").val("");
+          $("#sel10").val("");
+        });
+    });
+</script>
