@@ -7,11 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "daniel morgan",
+  "author": "me",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "path": "^0.12.7"
-  }
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielut4/FriendFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielut4/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/danielut4/FriendFinder#readme"
 }
