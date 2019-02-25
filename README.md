@@ -1,2 +1,2 @@
 # FriendFinder
-A compatibility-based "FriendFinder" application based on opinions regarding civic duty.
+A compatibility-based friend-finder application based on opinions regarding civic duty.
